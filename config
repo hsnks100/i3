@@ -199,9 +199,11 @@ exec i3-config-wizard
 exec --no-startup-id nm-applet 
 exec --no-startup-id xset r rate 300 30
 exec --no-startup-id compton
+exec --no-startup-id discord
+exec --no-startup-id emacs --daemon
 exec xmodmap -e "clear lock" #disable caps lock switch
 exec xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
 
-for_window [class="[.]*"] floating enable
+# for_window [class="[.]*"] floating enable
 
 
