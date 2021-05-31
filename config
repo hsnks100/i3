@@ -198,3 +198,4 @@ client.focused          #ff0000 #ff0000 #ffffff #ff0000   #ff0000
 client.background       #ffffff
 
 # bindsym --release Shift+Print exec "scrot -s -e 'xclip -selection clipboard -t \"image/png\" < $f'"
+bindsym $mod+Shift+s sticky toggle
